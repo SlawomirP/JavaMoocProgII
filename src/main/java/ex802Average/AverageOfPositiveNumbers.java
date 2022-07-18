@@ -24,6 +24,8 @@ public class AverageOfPositiveNumbers {
         for (Integer number : positiveNumbers) {
             sum += number;
         }
-        System.out.println((double) (sum / positiveNumbers.size()));
+        if (positiveNumbers.size() != 0){
+            System.out.println((double) (sum / positiveNumbers.size()));
+        }
     }
 }

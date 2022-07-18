@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7412f70-9a75-4b76-a2f1-ea153d8501f4" name="Changes" comment="---">
+    <list default="true" id="c7412f70-9a75-4b76-a2f1-ea153d8501f4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex803/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex803/ContainerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex803/LiquidContainers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex803/MainContainers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ex802Average/AverageOfPositiveNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex802Average/AverageOfPositiveNumbers.java" afterDir="false" />
     </list>
@@ -32,14 +36,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "G:/Mój dysk/JavaMooc2/JavaMoocProgII"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Mój dysk/JavaMooc2/JavaMoocProgII&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.MainContainers">
+    <configuration name="AverageOfPositiveNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex802Average.AverageOfPositiveNumbers" />
+      <module name="JavaMoocProgII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex802Average.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Cubes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex801Cubes.Cubes" />
       <module name="JavaMoocProgII" />
@@ -53,8 +70,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainContainers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex803.MainContainers" />
+      <module name="JavaMoocProgII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex803.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainContainers" />
+        <item itemvalue="Application.AverageOfPositiveNumbers" />
         <item itemvalue="Application.Cubes" />
       </list>
     </recent_temporary>
@@ -75,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658158489132</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="---">
+      <created>1658159325894</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658159325894</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
