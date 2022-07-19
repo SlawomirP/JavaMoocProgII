@@ -10,7 +10,7 @@ public class TodoList {
         this.list = new ArrayList<>();
     }
 
-    public void add(String task) {
+    public void addToList(String task) {
         this.list.add(task);
     }
 
