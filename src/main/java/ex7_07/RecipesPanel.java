@@ -2,8 +2,6 @@ package ex7_07;
 
 import java.io.IOException;
 import java.nio.file.Paths;
-import java.sql.SQLOutput;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class RecipesPanel {
@@ -49,14 +47,25 @@ public class RecipesPanel {
                         counterUp();
                         break;
                     }
+                    // TYMCZASOWA LISTA NA POJEDYNCZY PRZEPIS
                     temporaryForRecipe.addToList(tempList.getFromIndex(i));
                     counterUp();
                 }
-                recipeList.addRecipeToList(new Recipe(temporaryForRecipe.getFromIndex(0), Integer.valueOf(temporaryForRecipe.getFromIndex(1))));
+                // WYODREBNIENIE Z PRZEPISU SAMYCH SKLADNIKOW I ZAPISANIE ICH DO LISTY
+                SimpleList tempForIngredients = new SimpleList();
+                for(int k = 2; k < temporaryForRecipe.getListSize(); k++){
+                    tempForIngredients.addToList(temporaryForRecipe.getFromIndex(k));
+                }
+                // Z DANYCH Z TYMCZASOWEJ LISTY I LISTY SKLADNIKOW STWORZENIE OBIEKTU
+                recipeList.addRecipeToList(new Recipe(temporaryForRecipe.getFromIndex(0), Integer.parseInt(temporaryForRecipe.getFromIndex(1)),tempForIngredients.getList()));
+                // CZYSZCZENIE TYMCZASOWEJ LISTY
                 temporaryForRecipe.clearList();
-            }
-            recipeList.printRecipesList();
 
+            }
+            // SPRAWDZENIE ZAWARTOSCI LISTY
+            recipeList.printRecipesList();
+            // SPRAWDZENIE SKLADNIKOW DLA JEDNEGO PRZEPISU/ KONTROLA LISTY
+            recipeList.printIngedientsFor("Meatballs");
 
 
 

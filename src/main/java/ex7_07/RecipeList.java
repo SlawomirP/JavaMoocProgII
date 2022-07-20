@@ -24,4 +24,26 @@ public class RecipeList {
         }
     }
 
+    public void addRecipeIngredients (String recipeName,String ingredients){
+        for(Recipe recipe : recipes){
+            if(recipe.getName().equals(recipeName)){
+                recipe.addToIngredients(ingredients);
+            }
+        }
+    }
+
+    public void printIngredients(){
+        for(Recipe recipe : recipes){
+            recipe.printIngredientsList();
+        }
+    }
+
+    public void printIngedientsFor (String name){
+        for(Recipe recipe : recipes){
+            if(recipe.getName().equals(name)){
+                recipe.printIngredientsList();
+            }
+        }
+    }
+
 }

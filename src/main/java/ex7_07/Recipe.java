@@ -13,6 +13,7 @@ public class Recipe {
         this.cookingTime = cookingTime;
         this.ingredients = ingredients;
     }
+
     public Recipe(String name, int cookingTime) {
         this.name = name;
         this.cookingTime = cookingTime;
@@ -42,6 +43,10 @@ public class Recipe {
         for (String ingredient : this.ingredients) {
             System.out.println(ingredient);
         }
+    }
+
+    public String getIngedient(int position) {
+        return this.ingredients.get(position);
     }
 
     public String toString() {

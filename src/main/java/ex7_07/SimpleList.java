@@ -10,38 +10,39 @@ public class SimpleList {
         this.list = new ArrayList<>();
     }
 
-    public void addToList (String string){
+    public void addToList(String string) {
         this.list.add(string);
     }
-    public ArrayList<String> getList (){
+
+    public ArrayList<String> getList() {
         return this.list;
     }
 
-    public void printList (){
-        for(String position : this.list){
+    public void printList() {
+        for (String position : this.list) {
             System.out.println(position);
         }
     }
 
-    public int getListSize(){
+    public int getListSize() {
         return this.list.size();
     }
 
-    public String getFromIndex(int index){
+    public String getFromIndex(int index) {
         return this.list.get(index);
     }
 
-    public int howMuchEmptyRows(){
+    public int howMuchEmptyRows() {
         int counter = 0;
-        for(String position : this.list){
-            if(position.isBlank()){
+        for (String position : this.list) {
+            if (position.isBlank()) {
                 counter++;
             }
         }
         return counter;
     }
 
-    public void clearList () {
+    public void clearList() {
         this.list.clear();
     }
 
