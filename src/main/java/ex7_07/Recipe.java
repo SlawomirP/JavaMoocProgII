@@ -13,6 +13,10 @@ public class Recipe {
         this.cookingTime = cookingTime;
         this.ingredients = ingredients;
     }
+    public Recipe(String name, int cookingTime) {
+        this.name = name;
+        this.cookingTime = cookingTime;
+    }
 
     public String getName() {
         return name;

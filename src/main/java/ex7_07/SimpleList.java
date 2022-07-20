@@ -30,4 +30,21 @@ public class SimpleList {
     public String getFromIndex(int index){
         return this.list.get(index);
     }
+
+    public int howMuchEmptyRows(){
+        int counter = 0;
+        for(String position : this.list){
+            if(position.isBlank()){
+                counter++;
+            }
+        }
+        return counter;
+    }
+
+    public void clearList () {
+        this.list.clear();
+    }
+
+
 }
+
