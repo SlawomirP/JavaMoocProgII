@@ -14,6 +14,6 @@ public class IOU {
         this.loan.put(toWhom,amount);
     }
     public double howMuchDoIOweTo(String toWhom){
-        return this.loan.getOrDefault(toWhom, 1.0);
+        return this.loan.getOrDefault(toWhom, 0.0);
     }
 }
