@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7412f70-9a75-4b76-a2f1-ea153d8501f4" name="Changes" comment="---">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex8_15/MainForStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex8_15/StorageFacility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EX814/DictionaryOfManyTranslations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EX814/DictionaryOfManyTranslations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +40,13 @@
     &quot;last_opened_file_path&quot;: &quot;G:/Mój dysk/JavaMooc2/JavaMoocProgII&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MainTesting">
-    <configuration name="MainForRecipes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex7_07.MainForRecipes" />
+  <component name="RunManager" selected="Application.MainForStorage">
+    <configuration name="MainForStorage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex8_15.MainForStorage" />
       <module name="JavaMoocProgII" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex7_07.*" />
+          <option name="PATTERN" value="ex8_15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainForStorage" />
         <item itemvalue="Application.MainTesting" />
         <item itemvalue="Application.MainLicence" />
         <item itemvalue="Application.MainSimpleDate" />
         <item itemvalue="Application.ex810.Main810" />
-        <item itemvalue="Application.MainForRecipes" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658417654757</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="---">
+      <created>1658423530781</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1658423530781</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
