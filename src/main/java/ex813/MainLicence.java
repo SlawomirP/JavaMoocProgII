@@ -34,7 +34,9 @@ public class MainLicence {
         owners.put(li3, "Jürgen");
 
         System.out.println("omistajat:");
-        System.out.println(owners.get(new LicensePlate("FI", "ABC-123")));
+        //WYCIAGNIECIE WARTOSCI Z HASZMAPY Z POD KLUCZA KTORY JEST OBIEKTEM
+//        System.out.println(owners.get(new LicensePlate("FI", "ABC-123")));
+        System.out.println(owners.get(li1)); // tak lub tak
         System.out.println(owners.get(new LicensePlate("D", "B WQ-431")));
         // if the hasCode-method hasn't been overwritten, the owners won't be found
     }
