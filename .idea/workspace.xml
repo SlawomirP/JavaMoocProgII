@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7412f70-9a75-4b76-a2f1-ea153d8501f4" name="Changes" comment="---">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex813/VehicleRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EX814/DictionaryOfManyTranslations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TaskTracker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex813/MainLicence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex813/MainLicence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegisterSightingCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex813/VehicleRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex813/VehicleRegistry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +43,7 @@
     &quot;last_opened_file_path&quot;: &quot;G:/Mój dysk/JavaMooc2/JavaMoocProgII&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MainLicence">
+  <component name="RunManager" selected="Application.MainTesting">
     <configuration name="MainForRecipes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex7_07.MainForRecipes" />
       <module name="JavaMoocProgII" />
@@ -102,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainTesting" />
         <item itemvalue="Application.MainLicence" />
         <item itemvalue="Application.MainSimpleDate" />
         <item itemvalue="Application.ex810.Main810" />
         <item itemvalue="Application.MainForRecipes" />
-        <item itemvalue="Application.MainTesting" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658405962243</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="---">
+      <created>1658410976316</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1658410976316</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
