@@ -19,12 +19,12 @@ public class ProductWarehouse extends Warehouse {
         return productName;
     }
     //SETER DLA NAZWY PRODUKTU, USTAWI NOWA NAZWE
-    public void setProductName(String newName) {
+    public void setName(String newName) {
         this.productName = newName;
     }
     //NADPISUJE TOSTRINGA ZEBY ZWRACAL RZADANY NAPIS
     @Override
     public String toString(){
-        return getName() + ":" + super.toString();
+        return this.productName + ": " + super.toString();
     }
 }

@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c7412f70-9a75-4b76-a2f1-ea153d8501f4" name="Changes" comment="---">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex9_03/ChangeHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex9_03/ChangeHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex9_03/MainWare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex9_03/MainWare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex9_03/ProductWarehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex9_03/ProductWarehouse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ex9_03/ProductWarehouseWithHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex9_03/ProductWarehouseWithHistory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -344,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658507833345</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="---">
+      <created>1658511291702</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1658511291702</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
