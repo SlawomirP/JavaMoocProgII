@@ -1,6 +1,6 @@
 package EX9_01;
 
-public class ClassA {
+public class A {
 
     //tworzę tylko metode ktora wyswietli literke
 
