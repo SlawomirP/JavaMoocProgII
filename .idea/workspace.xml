@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7412f70-9a75-4b76-a2f1-ea153d8501f4" name="Changes" comment="---">
-      <change beforePath="$PROJECT_DIR$/src/main/java/EX9_01/ClassA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EX9_01/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EX9_01/ClassB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EX9_01/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EX9_01/ClassC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EX9_01/C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EX9_01/MainABC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EX9_01/MainABC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex9_02/MainForTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex9_02/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex9_02/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex9_02/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
     &quot;last_opened_file_path&quot;: &quot;G:/Mój dysk/JavaMooc2/JavaMoocProgII&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MainABC">
+  <component name="RunManager" selected="Application.MainForTests">
     <configuration name="MainABC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EX9_01.MainABC" />
       <module name="JavaMoocProgII" />
@@ -68,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainLicence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex813.MainLicence" />
+    <configuration name="MainForTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex9_02.MainForTests" />
       <module name="JavaMoocProgII" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex813.*" />
+          <option name="PATTERN" value="ex9_02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainSimpleDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EX811.MainSimpleDate" />
+    <configuration name="MainLicence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex813.MainLicence" />
       <module name="JavaMoocProgII" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EX811.*" />
+          <option name="PATTERN" value="ex813.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainForTests" />
         <item itemvalue="Application.MainABC" />
         <item itemvalue="Application.MainForStorage" />
         <item itemvalue="Application.MainTesting" />
         <item itemvalue="Application.MainLicence" />
-        <item itemvalue="Application.MainSimpleDate" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658477610929</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="---">
+      <created>1658477850355</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1658477850355</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
