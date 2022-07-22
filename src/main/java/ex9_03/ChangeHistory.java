@@ -16,7 +16,7 @@ public class ChangeHistory {
 
     //METODA KTORA BEDZIE DODAWALA DO LISTY
     public void add(double status) {
-        this.history.add(status);
+        history.add(status);
     }
 
     //METODA KTORA WYCZYSCI LISTE Z HISTORIA
