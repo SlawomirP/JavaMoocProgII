@@ -7,7 +7,7 @@ import java.util.ArrayList;
 // DODAWANIE ITEMKOW TYLKO POD WARUNKIEM NIE PRZEKROCZENIA LIMITU
 public class BoxWithMaxWeight extends Box{
 
-    private int capacity;
+    private final int capacity;
     private ArrayList<Item> itemsBox;
 
     public BoxWithMaxWeight (int capacity){
