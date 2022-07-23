@@ -12,14 +12,14 @@ public class OneItemBox extends Box {
     public OneItemBox (){
         this.oneItemBox = new ArrayList<>();
     }
-
+// METODA DODA ELEMENT DO LISTY TYLKO JEZELI JEST ONA PUSTA
     @Override
     public void add(Item item) {
         if (this.oneItemBox.isEmpty()) {
             this.oneItemBox.add(item);
         }
     }
-
+// SPRAWDZA CZY ITEMEK JEST NA LISCIE
     @Override
     public boolean isInBox(Item item) {
         if(this.oneItemBox.contains(item)){
