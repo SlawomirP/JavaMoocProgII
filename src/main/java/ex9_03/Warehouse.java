@@ -1,6 +1,6 @@
 package ex9_03;
 
-//KLASA TWORZĄCA OBIEKT - TU MAGAZYN
+//KLASA TWORZĄCA OBIEKT - TU MAGAZYN -- TO PODSTAWOWY SZABLON MAGAZYNU
 public class Warehouse {
 
     private double capacity;
