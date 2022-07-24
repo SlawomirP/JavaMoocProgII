@@ -1,7 +1,9 @@
 package EX9_10;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 //TA KLASA TWORZY MAGAZYN RODZIELAJAC PRODUKT NA 2 OBIEKTY
 //WRZUCANE W HASHMAPY
@@ -58,5 +60,13 @@ public class Warehouse {
             }
         }
         return false;
+    }
+
+    //METODA KTORA ZWROCI NAM SET KTORY BEDZIE ZAWIERAL
+    //NAZWY PRODUKTOW ZNAJDUJACE SIE W MAGAZYNIE
+    public Set<String> products(){
+        Set<String> products = new HashSet<>();
+        products = this.productWithPrice.keySet();
+        return products;
     }
 }
