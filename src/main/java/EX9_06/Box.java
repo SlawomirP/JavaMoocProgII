@@ -21,15 +21,15 @@ public class Box {
     //NIE ZOSTANIE PRZEKROCZONY LIMIT
     public void add (Packable packable){
         if(packable.weight() > this.capacity ||
-                (packable.weight() + totalWeightItemsInBox()) > this.capacity){
+                (packable.weight() + weight()) > this.capacity){
             return;
         }
-        if(packable.weight() + totalWeightItemsInBox() <= this.capacity){
+        if(packable.weight() + weight() <= this.capacity){
             this.box.add(packable);
         }
     }
 
-    private double totalWeightItemsInBox(){
+    private double weight(){
         double weight = 0;
         for(Packable item : this.box){
             weight +=item.weight();
@@ -39,7 +39,7 @@ public class Box {
 
     //NADPISUJE TOSTRING ZEBY WYSWIETLILO PRAWIDLOWY KOMUNIKAT
     public String toString (){
-        return "Box: " + this.box.size() + " items, total weight " + totalWeightItemsInBox()
+        return "Box: " + this.box.size() + " items, total weight " + weight()
         + " kg";
     }
 
