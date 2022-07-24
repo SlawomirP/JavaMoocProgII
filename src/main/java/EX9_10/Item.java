@@ -1,5 +1,7 @@
 package EX9_10;
 
+import java.util.Objects;
+
 public class Item {
 
     private String product;
@@ -27,4 +29,20 @@ public class Item {
         return this.product + ": " + this.qty;
     }
 
+    //MOJE NADPISANE
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Item item = (Item) o;
+        return qty == item.qty && unitPrice == item.unitPrice &&
+                Objects.equals(product, item.product);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(product, qty, unitPrice);
+    }
 }
