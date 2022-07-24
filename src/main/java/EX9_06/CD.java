@@ -17,7 +17,7 @@ public class CD implements Packable{
 
     @Override
     public double weight() {
-        return 0;
+        return this.weight;
     }
 
     @Override

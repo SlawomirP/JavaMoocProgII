@@ -15,7 +15,7 @@ public class Book implements Packable{
 
     @Override
     public double weight() {
-        return 0;
+        return this.weight;
     }
     // nadpisuje metode toString aby nie wyswietlala tylko
     //hashcodu
