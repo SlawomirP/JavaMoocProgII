@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7412f70-9a75-4b76-a2f1-ea153d8501f4" name="Changes" comment="---">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex9_07/mainProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EX9_06/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EX9_06/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex9_07/mainProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex9_07/mainProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,7 @@
     &quot;last_opened_file_path&quot;: &quot;G:/Mój dysk/JavaMooc2/JavaMoocProgII&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.EX9_06.MainForTests">
+  <component name="RunManager" selected="Application.mainProgram">
     <configuration name="EX9_06.MainForTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EX9_06.MainForTests" />
       <module name="JavaMoocProgII" />
@@ -60,19 +59,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="EX9_04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainABC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EX9_01.MainABC" />
-      <module name="JavaMoocProgII" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="EX9_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,13 +92,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="mainProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex9_07.mainProgram" />
+      <module name="JavaMoocProgII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex9_07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.mainProgram" />
         <item itemvalue="Application.EX9_06.MainForTests" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainWare" />
         <item itemvalue="Application.MainForTests" />
-        <item itemvalue="Application.MainABC" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658658417766</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="---">
+      <created>1658674714154</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1658674714154</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
