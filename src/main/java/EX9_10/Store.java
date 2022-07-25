@@ -22,7 +22,7 @@ public class Store {
 
     //METODA OBSŁUGUJĄCA KLIENTA, COS JAK START(),
     //W PARAMETRZE PODAJEMY NAZWE KLIENTA
-    public void shop (String customer){
+    public void shop(String customer) {
         //TWORZYMY KOSZYK DLA NOWEGO KLIENTA
         ShoppingCart cart = new ShoppingCart();
         //KOMUNIKATY POWITALNE
@@ -34,30 +34,36 @@ public class Store {
         //ZWROCI NAM PRODUKTY KTORE ZNAJDUJA SIE W MAGAZYNIE
         //TE PRODUKTY TO KLUCZE Z HASHMAPY GDZIE ZNAJDUJA SIE
         //PRODUKTY Z CENAMI
-        for(String product : this.warehouse.products()){
+        for (String product : this.warehouse.products()) {
             System.out.println(product);
         }
 
         //PETLA DO UZUPELNIANIA KOSZYKA
-        while (true){
+        while (true) {
 
             System.out.println("What to put in the cart (press enter to go to the register): ");
 
             String product = scanner.nextLine();
 
             //WARUNEK WYJSCIA Z PETLI
-            if(product.isEmpty()){
+            if (product.isEmpty()) {
                 break;
             }
 
-
-
+            //METODA KTORA DODA COS DO KOSZYKA, JEZELI TO COS ZNAJDUJE
+            //SIE NA MAGAZYNIE
+            if (this.warehouse.stock(product) > 0) { //jezeli jest na magazynie
+                this.warehouse.take(product); // wyciagnie z magazynu
+                cart.add(product, this.warehouse.price(product));//doda produkt
+                //o nazwie product a cene wezmie z magazynu metoda price ktora
+                //pobierze cene z mapy produkt cena
+            }
 
 
         }
-
-
-
+        System.out.println("your shoppingcart contents:");
+        cart.print();
+        System.out.println("total: " + cart.price());
 
 
     }

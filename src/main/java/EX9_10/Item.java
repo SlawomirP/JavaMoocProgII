@@ -13,19 +13,20 @@ public class Item {
         this.qty = qty;
         this.unitPrice = unitPrice;
     }
+
     //ZWRACA CENE PRODUKTU, CENA TO ILOSC PRODUKTU RAZY CENA
-    public int price(){
+    public int price() {
         return this.qty * this.unitPrice;
     }
 
     //METODA KTORA ZWIEKSZA ILOSC O 1
-    public void increaseQuantity(){
-        this.qty +=1;
+    public void increaseQuantity() {
+        this.qty += 1;
     }
 
     //NADPISANIE METODY toString
     @Override
-    public String toString(){
+    public String toString() {
         return this.product + ": " + this.qty;
     }
 
@@ -35,8 +36,7 @@ public class Item {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Item item = (Item) o;
-        return qty == item.qty && unitPrice == item.unitPrice &&
-                Objects.equals(product, item.product);
+        return qty == item.qty && unitPrice == item.unitPrice && Objects.equals(product, item.product);
     }
 
     @Override

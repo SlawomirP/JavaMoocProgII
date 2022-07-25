@@ -55,7 +55,7 @@ public class Warehouse {
             if (smallerStock > 0) {
                 smallerStock -= 1;
                 //NASTEPNIE DODAJE KLUCZ Z NOWA WARTOSCIA ZASTEPUJACY STARY
-                this.productWithStockBalance.put(product, smallerStock);
+                this.productWithStockBalance.replace(product, smallerStock);
                 return true;
             }
         }
@@ -64,7 +64,7 @@ public class Warehouse {
 
     //METODA KTORA ZWROCI NAM SET KTORY BEDZIE ZAWIERAL
     //NAZWY PRODUKTOW ZNAJDUJACE SIE W MAGAZYNIE
-    public Set<String> products(){
+    public Set<String> products() {
         Set<String> products = new HashSet<>();
         products = this.productWithPrice.keySet();
         return products;
