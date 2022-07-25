@@ -17,13 +17,13 @@ public class Cat implements NoiseCapable{
     }
 
 
-    public void eat(){
-        System.out.println(this.animalName + " eats");
-    }
-
-    public void sleep(){
-        System.out.println(this.animalName + " sleeps");
-    }
+//    public void eat(){
+//        System.out.println(this.animalName + " eats");
+//    }
+//
+//    public void sleep(){
+//        System.out.println(this.animalName + " sleeps");
+//    }
 
     @Override
     public void makeNoise() {
