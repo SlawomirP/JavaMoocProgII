@@ -59,12 +59,10 @@ public class Store {
                 //pobierze cene z mapy produkt cena
             }
 
-
         }
         System.out.println("your shoppingcart contents:");
         cart.print();
         System.out.println("total: " + cart.price());
-
 
     }
 }

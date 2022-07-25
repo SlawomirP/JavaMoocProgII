@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7412f70-9a75-4b76-a2f1-ea153d8501f4" name="Changes" comment="---">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex9_11/Herd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex9_11/MainForTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex9_11/Moveable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex9_11/Organism.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/EX9_10/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EX9_10/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EX9_10/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EX9_10/Warehouse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -41,7 +45,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MainTests">
+  <component name="RunManager" selected="Application.MainForTests">
     <configuration name="EX9_06.MainForTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EX9_06.MainForTests" />
       <module name="JavaMoocProgII" />
@@ -68,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EX9_10.MainTests" />
+    <configuration name="MainForTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex9_11.MainForTests" />
       <module name="JavaMoocProgII" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EX9_10.*" />
+          <option name="PATTERN" value="ex9_11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainWare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex9_03.MainWare" />
+    <configuration name="MainTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EX9_10.MainTests" />
       <module name="JavaMoocProgII" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex9_03.*" />
+          <option name="PATTERN" value="EX9_10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainForTests" />
         <item itemvalue="Application.MainTests" />
         <item itemvalue="Application.mainProgram" />
         <item itemvalue="Application.EX9_06.MainForTests" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainWare" />
       </list>
     </recent_temporary>
   </component>
@@ -125,13 +129,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658152942691</updated>
-    </task>
-    <task id="LOCAL-00002" summary="---">
-      <created>1658159325894</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1658159325894</updated>
     </task>
     <task id="LOCAL-00003" summary="---">
       <created>1658164068479</created>
@@ -469,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658739325154</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="---">
+      <created>1658743858431</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1658743858432</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
