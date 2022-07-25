@@ -20,7 +20,7 @@ public class Item {
 
     //METODA KTORA ZWIEKSZA ILOSC O 1
     public void increaseQuantity(){
-        this.qty++;
+        this.qty +=1;
     }
 
     //NADPISANIE METODY toString
@@ -30,8 +30,6 @@ public class Item {
     }
 
     //MOJE NADPISANE
-
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
