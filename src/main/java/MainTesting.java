@@ -7,33 +7,18 @@ import java.util.Scanner;
 
 public class MainTesting {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        List<String> inputs = new ArrayList<>();
-
-// reading inputs
-        while (true) {
-            String row = scanner.nextLine();
-            if (row.equals("end")) {
-                break;
-            }
-
-            inputs.add(row);
+        List<Integer> numbers = new ArrayList<>();
+        for (int i = 0; i < 10; i++) {
+            numbers.add(i);
         }
 
-// counting the number of values divisible by three
-        long numbersDivisibleByThree = inputs.stream()
-                .mapToInt(s -> Integer.valueOf(s))
-                .filter(number -> number % 3 == 0)
+        long howManyNumbers = numbers.stream()
+                .filter(i -> i < 4)
+                .map(i -> i * 2)
+                .filter(i -> i > 10)
                 .count();
 
-// working out the average
-        double average = inputs.stream()
-                .mapToInt(s -> Integer.valueOf(s))
-                .average()
-                .getAsDouble();
+        System.out.println("Numbers: " + howManyNumbers);
 
-// printing out the statistics
-        System.out.println("Divisible by three " + numbersDivisibleByThree);
-        System.out.println("Average number: " + average);
     }
 }
