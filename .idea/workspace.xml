@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7412f70-9a75-4b76-a2f1-ea153d8501f4" name="Changes" comment="---">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex10_05/PrintingUserInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex10_06/LimitedNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex10_07/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex10_07/UniqueLastNames.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +42,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LimitedNumbers">
+  <component name="RunManager" selected="Application.UniqueLastNames">
     <configuration name="Divisible" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex10_04.Divisible" />
       <module name="JavaMoocProgII" />
@@ -76,19 +76,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositiveNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex10_03.PositiveNumbers" />
-      <module name="JavaMoocProgII" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex10_03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PrintingUserInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex10_05.PrintingUserInput" />
       <module name="JavaMoocProgII" />
@@ -102,13 +89,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniqueLastNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex10_07.UniqueLastNames" />
+      <module name="JavaMoocProgII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex10_07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniqueLastNames" />
         <item itemvalue="Application.LimitedNumbers" />
         <item itemvalue="Application.PrintingUserInput" />
         <item itemvalue="Application.Divisible" />
         <item itemvalue="Application.MainTesting" />
-        <item itemvalue="Application.PositiveNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -120,13 +120,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658152942691</updated>
-    </task>
-    <task id="LOCAL-00013" summary="---">
-      <created>1658335799127</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1658335799127</updated>
     </task>
     <task id="LOCAL-00014" summary="---">
       <created>1658339627349</created>
@@ -464,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659007892862</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="---">
+      <created>1659014377992</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1659014377992</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
