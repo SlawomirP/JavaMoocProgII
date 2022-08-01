@@ -30,15 +30,18 @@ public class LiteracyComparison {
                     //UTWORZENIE OBIEKTU Z PODZIELONEGO WIERSZA
                     //    [0]                       [1]             [2]     [3]     [4]    [5]
                     //Adult literacy rate, population 15+ years, male (%),Croatia,2015,99.65564
-                    .map(rowParts -> new LiteracyStatistics(rowParts[2], rowParts[3], Integer.valueOf(rowParts[4]), Double.valueOf(rowParts[5]) ))
+                    .map(rowParts -> new LiteracyStatistics(rowParts[2], rowParts[3], Integer.valueOf(rowParts[4]), Double.valueOf(rowParts[5])))
                     //UTWORZONE OBIEKTY LADUJA W LISCIE
                     .forEach(object -> statistics.add(object));
         } catch (IOException e) {
             System.out.println("Read error.");
         }
 
-       statistics.stream()
-               .forEach(o -> System.out.println(o));
+        //ZEBY METODA SORT ZADZIALALA MUSIALEM NADPISAC  toString
+        Collections.sort(statistics);
+        //POPROSTU WYSWIETLILEM POSORTOWANA LISTE
+        statistics.stream()
+                .forEach(o -> System.out.println(o));
 
     }
 }

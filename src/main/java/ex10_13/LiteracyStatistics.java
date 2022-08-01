@@ -38,9 +38,16 @@ public class LiteracyStatistics implements Comparable<LiteracyStatistics> {
                 ", " + this.amountOfPeople;
     }
 
-
+    //NADPISALEM METODE compareTo ABY POSORTOWALO WEDLUG MOICH WYMAGAN
+    //MUSI IMPLEMENTOWAC INTERFEJSC COMPARABLE !!!!!!!!!!!!!!!!!
     @Override
     public int compareTo(LiteracyStatistics o) {
-       return (int) (this.getAmountOfPeople() - o.getAmountOfPeople());
+        if (this.amountOfPeople == o.getAmountOfPeople()) {
+            return 0;
+        } else if (this.amountOfPeople > o.getAmountOfPeople()){
+            return 1;
+        } else {
+            return -1;
+        }
     }
 }
