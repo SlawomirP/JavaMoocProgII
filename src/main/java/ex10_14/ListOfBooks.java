@@ -7,23 +7,23 @@ public class ListOfBooks {
 
     private List<Book> listOfBooks;
 
-    public ListOfBooks () {
+    public ListOfBooks() {
         this.listOfBooks = new ArrayList<>();
     }
 
-    public void add (Book book){
+    public void add(Book book) {
         this.listOfBooks.add(book);
     }
 
-    public int listSize (){
+    public int listSize() {
         return this.listOfBooks.size();
     }
 
-    public String toString(){
+    public String toString() {
         return listSize() + " books in total.";
     }
 
-    public List<Book> getList(){
+    public List<Book> getList() {
         return this.listOfBooks;
     }
 }
