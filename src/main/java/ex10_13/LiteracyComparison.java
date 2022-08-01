@@ -40,8 +40,7 @@ public class LiteracyComparison {
         //ZEBY METODA SORT ZADZIALALA MUSIALEM NADPISAC  toString
         Collections.sort(statistics);
         //POPROSTU WYSWIETLILEM POSORTOWANA LISTE
-        statistics.stream()
-                .forEach(o -> System.out.println(o));
+        statistics.stream().forEach(o -> System.out.println(o));
 
     }
 }

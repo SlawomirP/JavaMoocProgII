@@ -1,4 +1,5 @@
 package ex10_13;
+
 //TWORZE KLASE DLA OBIEKTOW W KTORE ZOSTANA WPISANE DANE Z CSV
 public class LiteracyStatistics implements Comparable<LiteracyStatistics> {
 
@@ -16,7 +17,7 @@ public class LiteracyStatistics implements Comparable<LiteracyStatistics> {
 
     public String getGender() {
         String gender = this.gender.trim();
-        String [] splited = gender.split(" ");
+        String[] splited = gender.split(" ");
         return splited[0];
     }
 
@@ -31,11 +32,11 @@ public class LiteracyStatistics implements Comparable<LiteracyStatistics> {
     public double getAmountOfPeople() {
         return this.amountOfPeople;
     }
+
     //NADPISUJE TA METODE ZEBY POKAZYWALA ZGODNY Z WYMAGANIAMI NAPIS
     @Override
-    public String toString(){
-        return getCountry() + " (" + this.year + "), " + getGender() +
-                ", " + this.amountOfPeople;
+    public String toString() {
+        return getCountry() + " (" + this.year + "), " + getGender() + ", " + this.amountOfPeople;
     }
 
     //NADPISALEM METODE compareTo ABY POSORTOWALO WEDLUG MOICH WYMAGAN
@@ -44,7 +45,7 @@ public class LiteracyStatistics implements Comparable<LiteracyStatistics> {
     public int compareTo(LiteracyStatistics o) {
         if (this.amountOfPeople == o.getAmountOfPeople()) {
             return 0;
-        } else if (this.amountOfPeople > o.getAmountOfPeople()){
+        } else if (this.amountOfPeople > o.getAmountOfPeople()) {
             return 1;
         } else {
             return -1;

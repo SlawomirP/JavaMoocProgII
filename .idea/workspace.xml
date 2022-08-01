@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7412f70-9a75-4b76-a2f1-ea153d8501f4" name="Changes" comment="---">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex10_14/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex10_14/ListOfBooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex10_14/MainProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex10_14/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ex10_13/LiteracyComparison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex10_13/LiteracyComparison.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ex10_13/LiteracyStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex10_13/LiteracyStatistics.java" afterDir="false" />
@@ -42,7 +46,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LiteracyComparison">
+  <component name="RunManager" selected="Application.ex10_14.MainProgram">
     <configuration name="LiteracyComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex10_13.LiteracyComparison" />
       <module name="JavaMoocProgII" />
@@ -82,19 +86,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueLastNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex10_07.UniqueLastNames" />
-      <module name="JavaMoocProgII" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex10_07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ex10_12.MainProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex10_12.MainProgram" />
       <module name="JavaMoocProgII" />
@@ -108,13 +99,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex10_14.MainProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex10_14.MainProgram" />
+      <module name="JavaMoocProgII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex10_14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex10_14.MainProgram" />
         <item itemvalue="Application.LiteracyComparison" />
         <item itemvalue="Application.ex10_12.MainProgram" />
         <item itemvalue="Application.MainProgram" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.UniqueLastNames" />
       </list>
     </recent_temporary>
   </component>
@@ -126,13 +130,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658152942691</updated>
-    </task>
-    <task id="LOCAL-00022" summary="---">
-      <created>1658426302962</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1658426302962</updated>
     </task>
     <task id="LOCAL-00023" summary="---">
       <created>1658431161000</created>
@@ -470,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659351165346</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="---">
+      <created>1659352143088</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1659352143088</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
