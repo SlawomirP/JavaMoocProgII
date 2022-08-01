@@ -14,10 +14,11 @@ public class User {
         this.list = new ListOfBooks();
         this.scanner = new Scanner(System.in);
     }
+
     //METODA STARTUJACA
     public void start() {
         while (true) {
-        //ZEBRANIE DANYCH I WPISANIE NA LISTE
+            //ZEBRANIE DANYCH I WPISANIE NA LISTE
             System.out.println("Input the name of the book, empty stops: ");
             String name = scanner.nextLine();
 
@@ -51,5 +52,18 @@ public class User {
         for (Book book : list.getList()) {
             System.out.println(book.toString());
         }
+
+        System.out.println("+++++++++++++++++");
+
+        //POSORTOWANIE LISTY WEDLUG ZALEZANEGO WIEKU I ALFABETYCZNIE
+        Comparator<Book> comparator2 = Comparator
+                .comparing(Book::getRecommendedAge)
+                .thenComparing(Book::getName);
+
+        //POSORTOWANIE
+        Collections.sort(list.getList(), comparator2);
+        //KOLEJNE WYSWIETLENIE
+        list.getList().stream()
+                .forEach(book -> System.out.println(book));
     }
 }
