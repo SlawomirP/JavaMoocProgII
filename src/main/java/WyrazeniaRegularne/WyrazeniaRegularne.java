@@ -51,6 +51,21 @@ public class WyrazeniaRegularne {
 
         System.out.println(matcher.matches());
 
+        System.out.println("+++++++++++++++++++++++++");
+
+        //aby wyciagnąć konkretny link trzeba uzyc grup, cos co mozna wyodrebnicc z calej konstrukcji
+        //link znajduje sie w miejscu gdzie jest .* na srodku, dajemy to w nawiasach
+        Pattern pattern2 = Pattern.compile(".*<a\\s+href=\"(.*)\">.*");//szukany wzorzec, wyrazenie regularne
+
+        Matcher matcher2 = pattern2.matcher("<a href=\"www.devcastzone.com\"></a>");//przykladowy link
+        matcher2.matches();
+        //teraz na matcher wywolujemy metode group i wpisujemy ktora grupa, w kolejnosci od lewej do pawej
+        System.out.println(matcher2.group(1));
+        System.out.println("++++++++++++++++++++++++++++");
+
+        //wyciagniecie wszytkich linkow z jakiegos kodu
+
+
 
 
 
