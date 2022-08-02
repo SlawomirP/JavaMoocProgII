@@ -34,14 +34,25 @@ public class WyrazeniaRegularne {
 
         //podstawowa klasa definujaca wzorzec to Pattern
         //tworzymy obiekt patternu zeby poslugiwac sie nim wielokrotnie
-        Pattern pattern = Pattern.compile(".*\\w.*");
+        Pattern pattern1 = Pattern.compile(".*\\w.*");
         //nastepnie na tym obiekcie uzywamy metody matcher gdzie podajemy ciag do analizy
-        Matcher matcher = pattern.matcher("abbccccdddd11112222");
+        Matcher matcher1 = pattern1.matcher("abbccccdddd11112222");
         //na obiekcie matcher uzywamy metody matches i to wyswietlamy
-        System.out.println(matcher.matches());
+        System.out.println(matcher1.matches());
 
         System.out.println("-----------------------------------------");
 
         //wyszukiwanie wsyzstkiego co ma wzorzec linku w jezyku html
+        //tlumaczenie: dowolny znak w dowolnej ilosci potem <a nastepnie spacja przynajmniej jedna nastepnie href=\"
+        // nastepnie dowolny znak w dowolnej ilosci
+        Pattern pattern = Pattern.compile(".*<a\\s+href=\".*\">.*");//szukany wzorzec, wyrazenie regularne
+
+        Matcher matcher = pattern.matcher("<a href=\"www.devcastzone.com\"></a>");//przykladowy link
+
+        System.out.println(matcher.matches());
+
+
+
+
     }
 }
