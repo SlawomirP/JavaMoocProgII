@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7412f70-9a75-4b76-a2f1-ea153d8501f4" name="Changes" comment="---">
-      <change beforePath="$PROJECT_DIR$/src/main/java/WyrazeniaRegularne/WyrazeniaRegularne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WyrazeniaRegularne/WyrazeniaRegularne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex10_15/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex10_15/Checker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +41,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WyrazeniaRegularne">
-    <configuration name="LiteracyComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex10_13.LiteracyComparison" />
+  <component name="RunManager" selected="Application.Checker">
+    <configuration name="Checker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex10_15.Checker" />
       <module name="JavaMoocProgII" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex10_13.*" />
+          <option name="PATTERN" value="ex10_15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,12 +55,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex10_11.MainProgram" />
+    <configuration name="LiteracyComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex10_13.LiteracyComparison" />
       <module name="JavaMoocProgII" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex10_11.*" />
+          <option name="PATTERN" value="ex10_13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Checker" />
         <item itemvalue="Application.WyrazeniaRegularne" />
         <item itemvalue="Application.ex10_14.MainProgram" />
         <item itemvalue="Application.LiteracyComparison" />
         <item itemvalue="Application.ex10_12.MainProgram" />
-        <item itemvalue="Application.MainProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -124,13 +125,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658152942691</updated>
-    </task>
-    <task id="LOCAL-00032" summary="---">
-      <created>1658507833345</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1658507833345</updated>
     </task>
     <task id="LOCAL-00033" summary="---">
       <created>1658511291702</created>
@@ -468,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659446503336</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="---">
+      <created>1659447225422</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1659447225422</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

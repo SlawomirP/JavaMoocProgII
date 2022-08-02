@@ -1,11 +1,21 @@
 package ex10_15;
 
 public class Checker {
+    public static void main(String[] args) {
 
-    public boolean isDayOfWeek(String string){
-        if (string.matches(".+day")){
+    Checker checker = new Checker();
+
+        System.out.println(checker.isDayOfWeek("abc"));
+
+    }
+
+    //METODA SPRAWDZI
+    public  boolean isDayOfWeek(String string){
+        if (string.matches("mon | tue | wed | thu | fri | sat | sun")){
+            System.out.println("The form is correct.");
             return true;
         } else {
+            System.out.println("The form is incorrect.");
             return false;
         }
     }
