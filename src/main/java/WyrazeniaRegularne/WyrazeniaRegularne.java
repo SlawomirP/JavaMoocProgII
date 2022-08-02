@@ -39,5 +39,9 @@ public class WyrazeniaRegularne {
         Matcher matcher = pattern.matcher("abbccccdddd11112222");
         //na obiekcie matcher uzywamy metody matches i to wyswietlamy
         System.out.println(matcher.matches());
+
+        System.out.println("-----------------------------------------");
+
+        //wyszukiwanie wsyzstkiego co ma wzorzec linku w jezyku html
     }
 }
