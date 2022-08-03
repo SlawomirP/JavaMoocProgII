@@ -5,9 +5,7 @@ package ex10_17;
 //BEDA MIALY TA SAMA WARTOSC TO NAJPIERW MAJA BYC
 //CLUB, DIAMOND, HEART, SPADE
 
-import java.util.Comparator;
-
-public class Card implements Comparable<Card>{
+public class Card implements Comparable<Card> {
 
     private int value;
     private Suit suit;
@@ -24,7 +22,7 @@ public class Card implements Comparable<Card>{
     @Override
     public String toString() {
         String cardValue = "" + value;
-        if(value == 11) {
+        if (value == 11) {
             cardValue = "J";
         } else if (value == 12) {
             cardValue = "Q";
@@ -48,10 +46,10 @@ public class Card implements Comparable<Card>{
     @Override
     public int compareTo(Card compared) {
         // jezeli wartosci sa takie same to zwraca roznice w kolorach
-        if (this.value == compared.getValue()){
+        if (this.value == compared.getValue()) {
             return this.suit.ordinal() - compared.getSuit().ordinal();
         }
-        if (this.value > compared.getValue()){
+        if (this.value > compared.getValue()) {
             return 1;
         } else {
             return -1;
