@@ -1,6 +1,7 @@
 package ex10_16;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class Employees {
@@ -31,10 +32,20 @@ public class Employees {
 
     //WYSWIETLI WSZYSTKICH Z TYTULEM PODANYM W PARAMETRZE
     public void print (Education education){
-        persons.stream()
-                //wyciaga osoby ktorych enum jest rowny temu w parametrze
-                .filter(person -> person.getEducation().equals(education))
-                //przelatuje przez to co zostalo w steamie i drukuje to
-                .forEach(person -> System.out.println(person));
+//        persons.stream()
+//                //wyciaga osoby ktorych enum jest rowny temu w parametrze
+//                .filter(person -> person.getEducation().equals(education))
+//                //przelatuje przez to co zostalo w steamie i drukuje to
+//                .forEach(person -> System.out.println(person));
+        //na iteratorze
+        Iterator<Person> iterator = this.persons.iterator();
+
+        while(iterator.hasNext()){
+            Person nextLine = iterator.next();
+            if(nextLine.getEducation() == education){
+                System.out.println(nextLine);
+            }
+        }
     }
+    //
 }
