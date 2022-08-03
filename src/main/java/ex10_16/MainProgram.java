@@ -11,6 +11,12 @@ public class MainProgram {
         university.add(new Person("Elina", Education.PHD));
 
         university.print(Education.PHD);
+
+//        university.fire(Education.HS);
+//
+//        System.out.println("==");
+//
+//        university.print();
     }
 
 
