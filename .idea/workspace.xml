@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7412f70-9a75-4b76-a2f1-ea153d8501f4" name="Changes" comment="---">
-      <change beforePath="$PROJECT_DIR$/src/main/java/WyrazeniaRegularne/WyrazeniaRegularne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WyrazeniaRegularne/WyrazeniaRegularne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex10_16/Education.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex10_16/Employees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex10_16/MainProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex10_16/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex10_15/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex10_15/Checker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -40,7 +46,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WyrazeniaRegularne">
+  <component name="RunManager" selected="Application.MainProgram">
+    <configuration name="Checker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex10_15.Checker" />
+      <module name="JavaMoocProgII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex10_15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LiteracyComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex10_13.LiteracyComparison" />
       <module name="JavaMoocProgII" />
@@ -55,11 +74,11 @@
       </method>
     </configuration>
     <configuration name="MainProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex10_11.MainProgram" />
+      <option name="MAIN_CLASS_NAME" value="ex10_16.MainProgram" />
       <module name="JavaMoocProgII" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex10_11.*" />
+          <option name="PATTERN" value="ex10_16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,19 +92,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="WyrazeniaRegularne.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex10_12.MainProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex10_12.MainProgram" />
-      <module name="JavaMoocProgII" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex10_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainProgram" />
+        <item itemvalue="Application.Checker" />
         <item itemvalue="Application.WyrazeniaRegularne" />
         <item itemvalue="Application.ex10_14.MainProgram" />
         <item itemvalue="Application.LiteracyComparison" />
-        <item itemvalue="Application.ex10_12.MainProgram" />
-        <item itemvalue="Application.MainProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -124,41 +130,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658152942691</updated>
-    </task>
-    <task id="LOCAL-00032" summary="---">
-      <created>1658507833345</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1658507833345</updated>
-    </task>
-    <task id="LOCAL-00033" summary="---">
-      <created>1658511291702</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1658511291702</updated>
-    </task>
-    <task id="LOCAL-00034" summary="---">
-      <created>1658587448503</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1658587448503</updated>
-    </task>
-    <task id="LOCAL-00035" summary="---">
-      <created>1658590474525</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1658590474525</updated>
-    </task>
-    <task id="LOCAL-00036" summary="---">
-      <created>1658591063554</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1658591063554</updated>
     </task>
     <task id="LOCAL-00037" summary="---">
       <created>1658591474196</created>
@@ -468,7 +439,42 @@
       <option name="project" value="LOCAL" />
       <updated>1659446503336</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="---">
+      <created>1659447225422</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1659447225422</updated>
+    </task>
+    <task id="LOCAL-00082" summary="---">
+      <created>1659453178123</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1659453178123</updated>
+    </task>
+    <task id="LOCAL-00083" summary="---">
+      <created>1659511508558</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1659511508558</updated>
+    </task>
+    <task id="LOCAL-00084" summary="---">
+      <created>1659513911790</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1659513911790</updated>
+    </task>
+    <task id="LOCAL-00085" summary="---">
+      <created>1659531007584</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1659531007584</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
