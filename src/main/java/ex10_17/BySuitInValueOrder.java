@@ -9,8 +9,14 @@ public class BySuitInValueOrder implements Comparator<Card> {
 
     @Override
     public int compare(Card c1, Card c2) {
+        //w przypadku gdy kolor metody(jej kolejnosc z enuma daje
+        // ordinal) bedzie taki sam to o kolejności
+        //zadecyduje wartosc karty
+        if (c1.getSuit().ordinal() == c2.getSuit().ordinal()){
+            return c1.getValue() - c2.getValue();
+        }
         //METODA ZWROCI NAM WYNIK ODEJMOWANIA KOLORU KARTY
-        //ALE JEJ KOLEJNOSCI W SZEREGU 1 -1 0
+
         return c1.getSuit().ordinal() - c2.getSuit().ordinal();
     }
 

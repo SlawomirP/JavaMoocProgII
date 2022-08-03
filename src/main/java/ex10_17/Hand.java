@@ -52,4 +52,16 @@ public class Hand implements Comparable<Hand>{
                 .reduce(0,(previousSum, value)-> previousSum + value);
         return sum;
     }
+
+    //METODA KTORA POSORTUJE KARTY W RECE
+    public void sortBySuit (){
+        //POSORTUJE LISTE POD WARUNKAMI
+        Collections.sort(this.cards, (c1, c2) -> {
+            if (c1.getSuit().ordinal() == c2.getSuit().ordinal()) {
+                return c1.getValue() - c2.getValue();
+            } else {
+                return c1.getSuit().ordinal() - c2.getSuit().ordinal();
+            }
+        });
+    }
 }
