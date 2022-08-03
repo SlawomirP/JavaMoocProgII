@@ -44,12 +44,12 @@ public class Hand implements Comparable<Hand>{
         }
     }
     //METODA ZLICZY SUME WARTOŚCI W LISCIE, ZROBIE TO NA STRIMIE
+    //POTEM UZYJE TEGO W METODZIE COMPARETO
     private int getSumValuesInHand(){
         //pomocniczy int, robie na nim stream, mapuje liste kart na liste wartosci kart
         //nastepnie reducerem zliczam wartosci
         int sum = this.cards.stream().map(card -> card.getValue())
                 .reduce(0,(previousSum, value)-> previousSum + value);
         return sum;
-
     }
 }
